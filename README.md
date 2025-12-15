@@ -57,7 +57,7 @@
   <p>
     <strong>Tech:</strong> Python, PyTorch, MONAI
   </p>
-  <a href="https://github.com/Emmanuelenotobore-hub/my-portfolio/tree/main/projects/brain-tumor-segmentation"
+  <a href="[https://github.com/Emmanuelenotobore-hub/my-portfolio/tree/main/projects/brain-tumor-segmentation](https://github.com/Emmanualenotobore-hub/my-portfolio/tree/main/projects/brain-tumor-segmentation)"
      target="_blank">
      View Project on GitHub
   </a>
