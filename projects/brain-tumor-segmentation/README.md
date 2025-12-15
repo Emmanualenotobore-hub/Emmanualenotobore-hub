@@ -1,29 +1,48 @@
-
 # Brain Tumor Segmentation using Deep Learning
 
+🎓 Master's Dissertation Project | Data Science
+
+## Overview
 This project is based on my Master's dissertation titled
-"Brain Tumor Diagnosis using Optimized Segmentation Techniques".
+**"Brain Tumor Diagnosis using Optimized Segmentation Techniques"**
+completed under the supervision of Dr. Shaheen Khatoon.
 
-The goal of this project is to automatically segment brain tumors
-from MRI images using deep learning models.
+The objective is to automatically segment brain tumors from MRI scans
+using deep learning models, including CNN and Transformer-based architectures.
 
-## What this project does
-- Takes MRI brain scans as input
-- Uses deep learning models to detect tumor regions
-- Compares multiple segmentation models
+## Problem Statement
+Manual tumor segmentation is time-consuming and subjective.
+This project explores optimized deep learning approaches to improve
+accuracy and robustness in medical image segmentation.
 
-## Models used
-- U-Net
+## Models Used
+- U-Net (Baseline)
 - nnU-Net
 - UNETR
-- Hybrid CNN–Transformer model
+- Hybrid CNN–Transformer model (Proposed)
 
 ## Dataset
-BraTS (Brain Tumor Segmentation) dataset  
-The dataset is not included due to usage restrictions.
+BraTS (Brain Tumor Segmentation) dataset.  
+Due to data usage restrictions, the dataset is not included.
 
-## Tools & Technologies
+## Methodology (High-Level)
+- MRI preprocessing and normalization
+- Data augmentation
+- Model training and optimization
+- Evaluation using Dice Score, IoU, and Hausdorff Distance
+
+## Results
+The proposed hybrid model achieved improved Dice scores compared
+to baseline models, particularly for tumor core and enhancing regions.
+
+Sample outputs and metrics are available in the `results/` folder.
+
+## Tech Stack
 - Python
 - PyTorch
 - MONAI
-- NumPy
+- NumPy, OpenCV
+- Matplotlib
+
+## Disclaimer
+This project is shared for academic and portfolio purposes only.
