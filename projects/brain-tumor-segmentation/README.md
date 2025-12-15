@@ -1,42 +1,40 @@
-# Brain Tumuor Diagnosis Using Optimized Segmentation Techinques
-
-🎓 Master's Dissertation Project | Data Science
+# Brain Tumor Segmentation using Hybrid CNN-Transformer Models
 
 ## Overview
-This project develops a hybrid CNN–Transformer deep learning model for accurate brain tumor segmentation from MRI scans. Using 3,064 paired MRI images and tumor masks, the model applies robust preprocessing, data augmentation, and a combined Dice and Binary Cross-Entropy loss function. The hybrid architecture outperforms a baseline CNN, achieving a Dice score of 0.724 and sensitivity of 0.729 while maintaining high specificity. The results demonstrate the effectiveness of integrating Transformer components with CNNs to improve medical image segmentation accuracy and reliability.
-## Problem Statement
-Manual tumor segmentation is time-consuming and subjective.
-This project explores optimized deep learning approaches to improve
-accuracy and robustness in medical image segmentation.
+This project focuses on developing an optimized deep learning model for **brain tumor segmentation** from MRI scans. The study aims to improve tumor detection accuracy by integrating **Transformer-based attention mechanisms** with **Convolutional Neural Networks (CNNs)** in a hybrid architecture. The hybrid model captures both local and global image features, leading to more accurate and smoother segmentations.
 
-## Models Used
-- U-Net (Baseline)
-- nnU-Net
-- UNETR
-- Hybrid CNN–Transformer model (Proposed)
+---
 
-## Dataset
-BraTS (Brain Tumor Segmentation) dataset.  
-Due to data usage restrictions, the dataset is not included.
+## Features
+- Hybrid **CNN-Transformer** architecture for enhanced segmentation performance.
+- Preprocessing pipeline including **intensity normalization**, **binary mask correction**, and **data augmentation**.
+- **Composite loss function** combining Dice loss and Binary Cross-Entropy loss.
+- Training optimizations: **early stopping** and **learning rate scheduling**.
+- Evaluation using metrics: **Dice coefficient**, **sensitivity**, **specificity**, and **AUC**.
+- Visual outputs of segmented tumors for qualitative assessment.
 
-## Methodology (High-Level)
-- MRI preprocessing and normalization
-- Data augmentation
-- Model training and optimization
-- Evaluation using Dice Score, IoU, and Hausdorff Distance
+---
 
 ## Results
-The proposed hybrid model achieved improved Dice scores compared
-to baseline models, particularly for tumor core and enhancing regions.
+The hybrid model significantly outperformed the baseline CNN model:
 
-Sample outputs and metrics are available in the `results/` folder.
+| Metric       | Baseline CNN | Hybrid CNN-Transformer |
+|------------- |------------- |-----------------------|
+| Dice Score   | 0.559        | 0.724                 |
+| Sensitivity  | 0.518        | 0.729                 |
+| Specificity  | 0.947        | 0.955                 |
 
-## Tech Stack
-- Python
-- PyTorch
-- MONAI
-- NumPy, OpenCV
-- Matplotlib
+**Example Segmentation Output:**  
+![Sample Segmentation](results/plots/sample.png)
 
-## Disclaimer
-This project is shared for academic and portfolio purposes only.
+The results demonstrate that adding Transformer elements improves the model’s ability to capture global context, producing smoother and more comprehensive tumor segmentations.
+
+---
+
+## Installation
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/Brain-Tumor-Segmentation.git
+cd Brain-Tumor-Segmentation
+pip install -r requirements.txt
