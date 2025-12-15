@@ -37,6 +37,14 @@
       I enjoy connecting practical experience with innovative technology, whether it’s optimizing industrial processes, improving decision-making through data, 
       or developing intelligent, sustainable systems. I’m curious, adaptable, and always eager to learn something new.
     </p>
+
+  ## 🛠️ Tech Stack
+
+- **Programming:** Python, SQL  
+- **Machine Learning:** Scikit-learn, TensorFlow, Keras  
+- **Deep Learning:** CNNs, Transformers, U-Net, Hybrid Models  
+- **Medical Imaging:** MRI Segmentation, Dice Loss, AUC  
+- **Tools:** Git, GitHub, Jupyter Notebook, Kaggle
   </section>
 
   <section id="education">
