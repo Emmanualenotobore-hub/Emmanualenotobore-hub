@@ -121,7 +121,7 @@ outperforming the pretrained AlexNet model.
   <p>
     <strong>Tech:</strong> Python, PyTorch, MONAI
   </p>
-    <a href="https://github.com/Emmanualenotobore-hub/my-portfolio/tree/main/projects/brain-tumor-segmentation"
+    <a href="https://github.com/Emmanualenotobore-hub/my-portfolio/blob/main/Brain-Tumor-Segmentation/README.md"
        target="_blank" class="btn">
        View Project on GitHub
     </a>
