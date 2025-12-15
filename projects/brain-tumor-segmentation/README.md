@@ -35,6 +35,6 @@ The results demonstrate that adding Transformer elements improves the model’s 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/Brain-Tumor-Segmentation.git
+git clone https://github.com/Emmanualenotobore-hub/Brain-Tumor-Segmentation.git
 cd Brain-Tumor-Segmentation
 pip install -r requirements.txt
