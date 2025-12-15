@@ -127,9 +127,16 @@ outperforming the pretrained AlexNet model.
     </a>
     <div class="project-card">
     </section>
-
+      
+## 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Emmanualenotobore-hub&show_icons=true&theme=default)
+  
   <section id="contact">
     <h2>Contact Me</h2>
+    ## 📫 Let’s Connect
+- 💼 LinkedIn: https://www.linkedin.com/in/your-link
+- 📧 Email: your.email@example.com
+- 📊 Kaggle: https://www.kaggle.com/your-username
     <p>Email: <a href="mailto:emmanuelenotobore@gmail.com">emmanuelenotobore@gmail.com.com</a></p>
   </section>
 
