@@ -9,6 +9,10 @@
 
   <header>
     <h1>Emmanuel Enotobore Aiyanbhor | Portfolio</h1>
+    
+  ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
