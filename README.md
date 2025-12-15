@@ -20,7 +20,7 @@
   </header>
 
   <section id="hero">
-    <h2>Hi, I'm Emmanual</h2>
+    <h2>Hi, I'm Emmanuel</h2>
     <p>I'm a web developer passionate about creating beautiful and functional websites.</p>
     <a href="#projects" class="btn">View My Work</a>
   </section>
@@ -57,7 +57,7 @@
   <p>
     <strong>Tech:</strong> Python, PyTorch, MONAI
   </p>
-  <a href="https://github.com/Emmanualenotobore-hub/my-portfolio/tree/main/projects/brain-tumor-segmentation"
+  <a href="https://github.com/Emmanuelenotobore-hub/my-portfolio/tree/main/projects/brain-tumor-segmentation"
      target="_blank">
      View Project on GitHub
   </a>
