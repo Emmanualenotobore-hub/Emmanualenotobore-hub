@@ -100,11 +100,24 @@
 <section id="projects">
     <h2>My Projects</h2>
   <div class="project-card">
+  <h3>🧠 Brain Tumor Classification Using Deep Learning (MATLAB)</h3></h3>
+  <p>
+    Custom CNN and AlexNet-based transfer learning model for classifying brain tumor
+MRI images into four classes. Achieved <b>96.02% accuracy</b> using a custom CNN,
+outperforming the pretrained AlexNet model.
+  </p>
+    <a href="https://github.com/Emmanualenotobore-hub/my-portfolio/tree/main/Brain-Tumor-Classification-DeepLearning"
+       target="_blank" class="btn">
+       View Project on GitHub
+    </a>
+    
+  <div class="project-card">
   <h3>Brain Tumor Segmentation using Deep Learning</h3>
   <p>
     Master’s dissertation project focused on automatic brain tumor
     segmentation from MRI scans using deep learning models.
   </p>
+    
   <p>
     <strong>Tech:</strong> Python, PyTorch, MONAI
   </p>
